@@ -1,5 +1,5 @@
 """Hand-ported pieces of EPA SWMM 5.2.4 that use C pointer arithmetic the translator does not map:
-odesolve.c (whole file), mempool.c (whole file), and five helpers from swmm5.c / project.c.
+odesolve.c (whole file), mempool.c (whole file), and six helpers from swmm5.c / project.c.
 Each keeps the C statement order and floating-point expressions exactly.
 Written by Claude (Anthropic); see AI-USE.md."""
 import math, os
